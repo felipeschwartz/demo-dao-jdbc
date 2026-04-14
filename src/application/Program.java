@@ -19,8 +19,7 @@ public class Program {
 
         System.out.println("==== TEST 1: seller findById ====");
 
-        System.out.print("Enter Seller's Id: ");
-        Seller seller = sellerDao.findById(sc.nextInt());
+        Seller seller = sellerDao.findById(3);
 
         System.out.println(seller.toString());
 
